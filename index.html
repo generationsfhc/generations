@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generations Family Health Centre</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f4f8fb;
+    color: #333;
+}
+
+header {
+    background-color: #1f4e79;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+}
+
+nav {
+    background-color: #163a59;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    color: #1f4e79;
+    margin-bottom: 20px;
+}
+
+.about, .contact {
+    text-align: center;
+}
+
+.physicians {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #163a59;
+}
+
+footer {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #1f4e79;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: #163a59;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Generations Family Health Centre</h1>
+    <p>Comprehensive Family Medicine in Toronto</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#physicians">Physicians</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>Welcome</h2>
+    <p>
+        Generations Family Health Centre is a full-service family medicine clinic 
+        providing comprehensive, compassionate care for patients of all ages.
+    </p>
+    <p>
+        Our team of seven experienced family physicians is committed to 
+        delivering high-quality primary care in a welcoming and professional environment.
+    </p>
+</section>
+
+<section id="physicians">
+    <h2>Our Physicians</h2>
+
+    <div class="physicians">
+
+        <div class="card">
+            <h3>Dr. David M. Silver</h3>
+            <p>Family Physician</p>
+        </div>
+
+        <div class="card">
+            <h3>Dr. Sheana E. Desson</h3>
+            <p>Family Physician</p>
+        </div>
+
+        <div class="card">
+            <h3>Dr. Jodine L. Rosenberg</h3>
+            <p>Family Physician</p>
+        </div>
+
+        <div class="card">
+            <h3>Dr. Kimberly E. Reiter</h3>
+            <p>Family Physician</p>
+        </div>
+
+        <div class="card">
+            <h3>Dr. Ilana M. Geist</h3>
+            <p>Family Physician</p>
+        </div>
+
+        <div class="card">
+            <h3>Dr. Maya G. Amar</h3>
+            <p>Family Physician</p>
+        </div>
+
+        <div class="card">
+            <h3>Dr. Emily A. Dermer</h3>
+            <p>Family Physician</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact & Location</h2>
+    <p>
+        6020 Yonge Street<br>
+        Toronto, Ontario<br>
+        M4N 3N1<br>
+        Canada
+    </p>
+
+    <a class="button" 
+       href="https://www.google.com/maps/search/?api=1&query=6020+Yonge+Street+Toronto+Ontario+M4N+3N1" 
+       target="_blank">
+       View on Google Maps
+    </a>
+</section>
+
+<footer>
+    © 2026 Generations Family Health Centre | All Rights Reserved
+</footer>
+
+</body>
+</html>
